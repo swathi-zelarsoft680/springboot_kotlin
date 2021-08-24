@@ -11,7 +11,7 @@ import java.util.*
 
 @RestController
 @RequestMapping("/api/v1/")
-@CrossOrigin(origins = arrayOf("http://localhost:3000"))
+@CrossOrigin(origins = arrayOf("http://3.85.20.56:3000"))
 class UserController(private val userRepository: UserRepository) {
 
     @GetMapping("/users")
